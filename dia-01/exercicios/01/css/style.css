@@ -1,0 +1,50 @@
+body { /* Vai aplicar esses estilos a tudo que estiver dentro do body */
+    background-color: rgba(179, 130, 186, 36%); /*Uma das formas de selecionar cor, essa pode escolher a opacidade */
+    font-family: 'Montserrat', sans-serif;
+}
+
+.titulo-pagina {
+    text-align: center;
+    color: purple;
+}
+
+.conteudo-principal {
+    width: 900px;
+    margin: 0 auto; /* Truque pra centralizar, só funciona com elementos block */
+}
+
+.conteudo-principal__titulo {
+    text-align: center;
+}
+
+.conteudo-principal__texto,
+.conteudo-principal__imagem {
+    width: 400px;
+    display: inline-block;
+    margin: 10px;
+    vertical-align: middle;
+}
+
+.conteudo-principal__imagem > img { /* seleciona as tags img dentro da classe .conteudo-principal__imagem */
+    width: 400px;
+}
+
+.conteudo-sobre__botoes {
+    margin-top: 40px;
+}
+
+.btn {
+    padding: 20px;
+    text-decoration: none; /* Tira o sublinhado do link */
+    text-transform: uppercase; /*Deixa todas as letras maiúsculas sem prejudicar a acessibilidade */
+    border: 1px solid #5d1277; /* Borda ao redor do elemento. Primeiro define a largura da borda, depois o estilo, por último a cor */
+}
+
+.btn__saiba-mais {
+    background-color: #5d1277;
+    color: white;
+}
+
+.btn__participe {
+    color: #5d1277; /* Outra forma muito comum de escolher a cor, pelo código HEX */
+}

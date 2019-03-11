@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Meta tags não precisam de fechamento -->
+    <!-- A tag abaixo é uma meta, charset é um atributo e UTF-8 é o valor do atributo-->
+    <!-- Definicao de caracteres com acento -->
+    <meta charset="UTF-8">
+    <meta name="author" content="Milena Martins">
+    <meta name="description" content="Primeiro exercício da turma 7 da Reprograma">
+    <title>Minha primeira página</title>
+
+    <!-- Aqui referenciamos a fonte que vamos usar -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <!-- Aqui estamos conectando o HTML ao nosso CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- Aqui no body podemos começar a desenhar nossa página pra valor, com o que vai aparecer na tela -->
+    <!-- O header é o cabeçalho da página, onde colocamos o que é o primeiro destaque, como nome e imagem de abertura -->
+    <!-- O h1 é o título principal e só deve aparecer uma vez por página -->
+    <header>
+        <h1 class="titulo-pagina">Reprograma Turma 7</h1>
+    </header>
+
+    <!-- A section define uma seção da sua página. Serve apenas para definir conteúdo que deve ficar junto -->
+    <section class="conteudo-principal">
+        <h2 class="conteudo-principal__titulo">Aqui vai um subtítulo</h2>
+
+        <div class="conteudo-principal__texto">
+            <h3>Título do texto</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum sapiente, amet sequi iusto in expedita, recusandae, ipsa quasi accusamus molestias aspernatur? Reiciendis fugiat adipisci expedita odit optio esse iusto ipsa.</p>
+
+            <div class="conteudo-sobre__botoes">
+                <a href="http://reprograma.com.br" target="_blank" class="btn btn__saiba-mais">Saiba mais</a>
+                <a href="http://reprograma.com.br" target="_blank" class="btn btn__participe">Participe</a>
+            </div>
+        </div>
+
+        <div class="conteudo-principal__imagem">
+            <img src="./img/mulheres.gif" alt="Gif de mulheres se ajudando e dando incentivo">
+        </div>
+    </section>
+</body>
+</html>
