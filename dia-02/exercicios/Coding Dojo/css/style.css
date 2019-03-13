@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+.navegacao {
+    display: flex;
+}
+
+.navegacao__brand__logo {
+    width: 70px;
+}
+
+.navegacao__menu {
+    display: flex;
+    list-style: none;
+}
+
+.navegacao__menu__item > a {
+    color: #474646;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+}
