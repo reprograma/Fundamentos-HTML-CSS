@@ -1,19 +1,41 @@
+/* Geral */
 body {
     margin: 0;
     font-family: 'Nunito', sans-serif;
+    color: #474646;
 }
 
+.btn {
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    font-weight: bold;
+} 
+
+.cabecalho__titulo,
+.universidades__chamada {
+    font-weight: 300;
+}
+
+/* Barra de navegação */
 .navegacao {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 6px 10px -2px rgba(0, 0, 0, 0.09);
 }
 
 .navegacao__brand__logo {
-    width: 70px;
+    width: 80px;
 }
 
 .navegacao__menu {
-    display: flex;
     list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 33%;
+    margin: 0;
+    padding: 0;
 }
 
 .navegacao__menu__item > a {
@@ -21,4 +43,78 @@ body {
     font-size: 12px;
     font-weight: bold;
     text-decoration: none;
+}
+
+.navegacao__area-usuario {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 20%;
+    list-style: none;
+    padding: 0;
+}
+
+.navegacao__area-usuario__item > a {
+    color: #474646;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.navegacao__btn {
+    background-color: #9776f4;
+    border-radius: 3px;
+}
+
+/* Cabeçalho */
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho__info {
+    width: 33%;
+    padding: 20px;
+    margin-left: 100px;
+}
+
+.cabecalho__btn {
+    background-color: #e91e63;
+}
+
+.cabecalho__link {
+    color: #adabab;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 15px;
+}
+
+.cabecalho__inline-icon {
+    width: 15px;
+}
+
+/* Seção universidades */
+
+.universidades__chamada {
+    text-align: center;
+    margin: 50px;
+}
+
+.universidades__banner {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 50px;
+}
+
+.universidades__banner__item {
+    width: 20%;
+}
+
+.uni__nome {
+    font-size: 20px;
+}
+
+.uni__descricao {
+    margin: 0;
+    font-size: 13px;
 }
