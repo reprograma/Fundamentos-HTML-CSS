@@ -1,6 +1,7 @@
 /* Geral */
 body {
     margin: 0;
+    box-sizing: border-box;
     font-family: 'Nunito', sans-serif;
     color: #474646;
 }
@@ -19,6 +20,9 @@ body {
 
 /* Barra de navegação */
 .navegacao {
+    position: fixed;
+    width: 100vw;
+    background-color: white;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -94,6 +98,9 @@ body {
 }
 
 /* Seção universidades */
+.universidades {
+    margin-bottom: 30px;
+}
 
 .universidades__chamada {
     text-align: center;
@@ -106,15 +113,45 @@ body {
     margin: 0 50px;
 }
 
-.universidades__banner__item {
-    width: 20%;
+.universidades__depoimento {
+    width: 17%;
 }
 
-.uni__nome {
+.universidades__nome {
+    margin: 0;
     font-size: 20px;
+    border-bottom: 2px solid #934af4;
 }
 
-.uni__descricao {
+
+.depoimento__texto {
+    margin: 25px 0;
+    font-size: 12px;
+    letter-spacing: 0.2px;
+}
+
+.depoimento__creditos {
     margin: 0;
     font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.depoimento__legenda {
+    margin: 0;
+    font-size: 13px;
+}
+
+/* Rodapé */
+.rodape {
+    background-color: #e91e63;
+    padding: 5px 0;
+}
+
+.rodape__creditos {
+    text-align: center;
+    color: #ffffff;
+    font-size: 12px;
+    text-transform: capitalize;
 }
