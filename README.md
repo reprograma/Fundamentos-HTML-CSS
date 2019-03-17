@@ -1,6 +1,15 @@
+# Material de estudo
+
+Cada pasta conta com os exercício para cada dia da semana de aula. Aqui você vai encontrar o layout a ser desenvolvido e a resolução dos exercícios. Ao longo da semana, vou adicionar um README para cada dia, com links de estudo e material que discutimos em aula.
+
+# Dúvidas
+
+Para tirar dúvidas, leve para a sala de aula, mande mensagem para a professora ou abra um pull request aqui no repositório.
+
 # HTML e CSS Básicos
 
 [Documentação HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+[Documentação CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 
 
 # Comandos git
