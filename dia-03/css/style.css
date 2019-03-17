@@ -15,32 +15,32 @@ body {
     margin-top: 50px;
 }
 
-    .form > div {
-        margin-top: 25px;
-    }
+.formulario > div {
+    margin-top: 25px;
+}
 
-    label {
-        display: inline-block;
-        width: 45%;
-        text-align: right;
-        margin-right: 15px;
-        vertical-align: top;
-    }
+label {
+    display: inline-block;
+    width: 45%;
+    text-align: right;
+    margin-right: 15px;
+    vertical-align: top;
+}
 
-    input[type="text"], select, input[type="number"] {
-        font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-        border-radius: 2px;
-        border: 1px solid #ccc;
-        height: 30px;
-        padding: 5px;
-    }
+input[type="text"], select, input[type="number"] {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    height: 30px;
+    padding: 5px;
+}
 
-    textarea {
-        font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-        border-radius: 2px;
-        border: 1px solid #ccc;
-        padding: 5px;
-    }
+textarea {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
 
 /* LAYOUT */
 .half-col {
