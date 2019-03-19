@@ -5,7 +5,9 @@ body {
 }
 
 .navegacao {
-    position: relative; /* Torna esse elemento referência para o posicionamento do elemento com position absolute. Será posicionado de acordo com sua posição normal. */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 20px 0;
     box-shadow: 0px 3px 4px -2px rgba(0, 0, 0, 0.15);
 }
@@ -18,16 +20,12 @@ body {
 
 .navegacao__menu {
     list-style: none;
-    position: absolute; /* Informa que esse elemento será posicionado de acordo com a referência passada pelo elemento relativo. */
-    right: 20px; /* Conta um valor a partir do limite à direita do elemento relativo */
-    display: inline-block;
     margin: 0;
 }
 
 .navegacao__menu__item {
     display: inline-block;
     margin: 0 10px;
-    vertical-align: sub;
 }
 
 .navegacao__menu__item > a {
@@ -83,4 +81,8 @@ body {
     display: inline-block;
     font-size: 11px;
     margin: 0;
+}
+
+img + p { 
+    color: red;
 }
