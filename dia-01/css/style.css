@@ -8,28 +8,28 @@ body { /* Vai aplicar esses estilos a tudo que estiver dentro do body */
     color: purple;
 }
 
-.conteudo-principal {
+.conteudo {
     width: 900px;
     margin: 0 auto; /* Truque pra centralizar, só funciona com elementos block */
 }
 
-.conteudo-principal__titulo {
+.subtitulo {
     text-align: center;
 }
 
-.conteudo-principal__texto,
-.conteudo-principal__imagem {
+.chamada,
+.ilustracao {
     width: 400px;
     display: inline-block;
     margin: 10px;
     vertical-align: middle;
 }
 
-.conteudo-principal__imagem > img { /* seleciona as tags img dentro da classe .conteudo-principal__imagem */
+.ilustracao > img { /* seleciona as tags img dentro da classe .conteudo-principal__imagem */
     width: 400px;
 }
 
-.conteudo-sobre__botoes {
+.call-to-action {
     margin-top: 40px;
 }
 
@@ -40,11 +40,11 @@ body { /* Vai aplicar esses estilos a tudo que estiver dentro do body */
     border: 1px solid #5d1277; /* Borda ao redor do elemento. Primeiro define a largura da borda, depois o estilo, por último a cor */
 }
 
-.btn__saiba-mais {
+.btn--saiba-mais {
     background-color: #5d1277;
     color: white;
 }
 
-.btn__participe {
+.btn--participe {
     color: #5d1277; /* Outra forma muito comum de escolher a cor, pelo código HEX */
 }
