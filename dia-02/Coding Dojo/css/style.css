@@ -29,11 +29,11 @@ body {
     box-shadow: 0px 6px 10px -2px rgba(0, 0, 0, 0.09);
 }
 
-.navegacao__brand__logo {
+.logo {
     width: 80px;
 }
 
-.navegacao__menu {
+.menu {
     list-style: none;
     display: flex;
     justify-content: space-evenly;
@@ -42,14 +42,14 @@ body {
     padding: 0;
 }
 
-.navegacao__menu__item > a {
+.menu__item > a {
     color: #474646;
     font-size: 12px;
     font-weight: bold;
     text-decoration: none;
 }
 
-.navegacao__area-usuario {
+.area-usuario {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -58,13 +58,13 @@ body {
     padding: 0;
 }
 
-.navegacao__area-usuario__item > a {
+.area-usuario__item > a {
     color: #474646;
     font-size: 12px;
     text-decoration: none;
 }
 
-.navegacao__btn {
+.btn--roxo {
     background-color: #9776f4;
     border-radius: 3px;
 }
@@ -76,24 +76,24 @@ body {
     align-items: center;
 }
 
-.cabecalho__info {
+.info {
     width: 33%;
     padding: 20px;
     margin-left: 100px;
 }
 
-.cabecalho__btn {
+.btn--rosa {
     background-color: #e91e63;
 }
 
-.cabecalho__link {
+.link {
     color: #adabab;
     text-decoration: none;
     font-weight: bold;
     margin: 0 15px;
 }
 
-.cabecalho__inline-icon {
+.link__inline-icon {
     width: 15px;
 }
 
@@ -102,35 +102,34 @@ body {
     margin-bottom: 30px;
 }
 
-.universidades__chamada {
+.chamada {
     text-align: center;
     margin: 50px;
 }
 
-.universidades__banner {
+.banner {
     display: flex;
     justify-content: space-around;
     margin: 0 50px;
 }
 
-.universidades__depoimento {
+.depoimento {
     width: 17%;
 }
 
-.universidades__nome {
+.nome-universidade {
     margin: 0;
     font-size: 20px;
     border-bottom: 2px solid #934af4;
 }
 
-
-.depoimento__texto {
+.trecho {
     margin: 25px 0;
     font-size: 12px;
     letter-spacing: 0.2px;
 }
 
-.depoimento__creditos {
+.creditos-depoimento {
     margin: 0;
     font-size: 13px;
     font-weight: bold;
@@ -138,7 +137,7 @@ body {
     text-transform: uppercase;
 }
 
-.depoimento__legenda {
+.legenda-depoimento {
     margin: 0;
     font-size: 13px;
 }
@@ -149,7 +148,7 @@ body {
     padding: 5px 0;
 }
 
-.rodape__creditos {
+.creditos-rodape {
     text-align: center;
     color: #ffffff;
     font-size: 12px;

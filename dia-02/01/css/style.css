@@ -71,13 +71,11 @@ body {
     text-align: center;
 }
 
-.footer__logo {
-    display: inline-block;
+.logo--pequeno {
     width: 100px;
-    margin: 0 20px;
 }
 
-.footer__creditos {
+.creditos {
     display: inline-block;
     font-size: 11px;
     margin: 0;
