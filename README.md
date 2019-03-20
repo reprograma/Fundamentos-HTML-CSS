@@ -70,3 +70,46 @@ git push origin master
 ```
 
 Para enviar commits para o repositório remoto (na branch master)
+
+# Método BEM
+
+Forma de nomear as classes do CSS seguindo um padrão fixo baseado em Blocos, Elementos e Modificadores. Oferece 3 principais benefícios:
+
+
+* Traduz claramente a **estrutura** da página
+* Torna possível ter estilos **reutilizáveis**, sem precisar ficar repetindo os mesmos estilos em vários elementos
+* Torna seu código **modular**, ou seja, evita que estilos sejam passados "sem querer" por meio da cascata.
+
+
+Para seguir o padrão BEM, basta seguir o seguinte formato para nomear suas classes:
+
+```
+bloco__elemento--modificador
+```
+
+**Bloco** é tudo aquilo que representa um componente independente da página. Possui um sentido se usado sozinho e pode ser reutilizado.
+*Ex: menu, botão, formulário*
+
+
+**Elemento** é tudo aquilo que ajuda a construir o componente independente. Ou seja, se colocado sem uma "mãe" e sem "irmãos" não funciona bem.
+*Ex: item da lista, campo do formulário*
+
+
+**Modificador** é tudo aqui que varia entre elementos ou componentes que podem ser iguais. Por exemplo, quando temos vários botões em uma página e um deles tem a cor diferente. Ele continua sendo um botão, mas precisa ser diferenciado dos outros. É sempre uma característica ou estado.
+*Ex: botão vermelho, menu horizontal ou vertical*
+
+
+> Importante: podemos usar modificadores tanto com elementos quanto com blocos diretamente.
+
+
+Exemplos válidos:
+
+```
+conteudo__item
+conteudo__item-visitado
+```
+
+```
+menu__item
+menu--horizontal
+```
