@@ -5,7 +5,7 @@ Cada pasta conta com os exercício para cada dia da semana de aula. Aqui você v
 # Dúvidas
 
 Para tirar dúvidas, leve para a sala de aula, mande mensagem para a professora ou abra um issue aqui no repositório.
-q
+
 # HTML e CSS Básicos
 
 [Documentação HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
