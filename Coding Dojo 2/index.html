@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <section>
+        <form action="#" method="POST" class="formulario">
+
+            <div class="grupo-campo">
+                <label for="texto">Texto</label>
+                <input type="text" name="texto">
+            </div>
+
+            <div class="grupo-campo">
+                <label for="senha">Senha</label>
+                <input type="password">
+            </div>
+
+            <div class="grupo-campo">
+                <label for="confirmo-talentos">Confirme aqui que você é uma mulher cheia de talentos</label>
+
+                <div class="meia-coluna">
+                    <input type="checkbox" name="confirmo-talentos" value="confirmo"> <span>Confirmo que sou mesmo</span>
+                </div>
+            </div>
+
+            <div class="grupo-campo">
+                <label>Escolha uma das opções</label>
+
+
+                <div class="meia-coluna">
+                    <input type="radio" name="poder" value="forca">
+                    <span>Super força</span>
+
+                    <input type="radio" name="poder" value="insibilidade">
+                    <span>Ser invisível</span>
+
+                    <input type="radio" name="poder" value="ler-mentes">
+                    <span>Ler mentes</span>
+
+                    <input type="radio" name="poder" value="velocidade">
+                    <span>Super velocidade</span>
+                </div>
+            </div>
+
+            <div class="grupo-campo">
+                <label>Escolha um tópico</label>
+                <select name="topico">
+                    <option value="site-bonito">Deixar meu site bonito</option>
+                    <option value="fim-patriarcado">Acabar com o patriarcado</option>
+                    <option value="revolucao">Fazer a revolução feminista</option>
+                </select>
+            </div>
+
+            <div class="grupo-campo">
+                <label for="">Escolha um valor:</label>
+                <input type="number" min='10' max='20'>
+            </div>
+
+            <div class="grupo-campo">
+                <label for="comentario">Comentário</label>
+                <textarea name="comentario" rows=4></textarea>
+            </div>
+
+            <div class="grupo-campo"> <!-- Posiciona e alinha os elementos internos com a mesma proporção das divs acima -->
+                <div></div> <!-- Primeiro elemento. Vai simular o espaço que o label ocupa nas divs acima-->
+                <div class="meia-coluna"> <!-- Classe já configurada para ocupar 54% da mãe-->
+                    <input type="reset">
+                    <input type="submit">
+                </div>
+            </div>
+
+        </form>
+    </section>
+</body>
+</html>

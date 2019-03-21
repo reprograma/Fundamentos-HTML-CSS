@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+.formulario {
+    margin: 0 auto;
+    width: 400px;
+}
+
+.grupo-campo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.grupo-campo > label {
+    width: 40%;
+    text-align: right;
+}
+
+.meia-coluna {
+    width: 54%;
+}
+
+.grupo-campo > input,
+.grupo-campo > textarea,
+.grupo-campo > select {
+    width: 54%;
+}
